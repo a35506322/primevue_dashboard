@@ -120,7 +120,7 @@ const items = ref([
 ])
 </script>
 <template>
-  <p-toolbar class="shadow-2" style="border-bottom: 1px solid var(--surface-border)">
+  <p-toolbar class="shadow-sm" style="border-bottom: 1px solid var(--surface-border)">
     <template #start>
       <a href="#" class="fs-3 text-decoration-none">網站標題</a>
     </template>
