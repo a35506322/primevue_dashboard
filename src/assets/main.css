@@ -1,1 +1,30 @@
+/*
+    reset
+*/
 
+@import 'normalize.css/normalize.css';
+
+/*
+    bs: 引入
+*/
+
+@import 'bootstrap/dist/css/bootstrap-grid.css';
+@import 'bootstrap/dist/css/bootstrap-utilities.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/*
+    prime vue
+*/
+@import 'primevue/resources/themes/lara-light-teal/theme.css';
+
+/* cutsom */
+.cursor-pointer {
+  cursor: pointer;
+}
+.card {
+  background: #fff;
+  border: 1px solid #dfe7ef;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
